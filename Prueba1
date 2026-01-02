@@ -1,0 +1,17 @@
+
+# Colócate en la carpeta raíz del proyecto
+cd C:\ruta\de\tu\proyecto
+
+# Inicializa git y haz el primer commit
+git init
+git add .
+git commit -m "Primer commit"
+
+# Vincula el remoto (reemplaza la URL por la de tu repo)
+git remote add origin https://github.com/usuario/mi-repo.git
+# o con SSH:
+# git remote add origin git@github.com:usuario/mi-repo.git
+
+# Sube la rama principal (puede llamarse main o master)
+git branch -M main
+git push -u origin main
