@@ -1,0 +1,5 @@
+# Dependencias mínimas para ejecutar DeepEval en Binder
+deepeval>=3.7.7
+jupyterlab>=4
+ipykernel
+python-dotenv
